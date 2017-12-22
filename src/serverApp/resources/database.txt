@@ -1,0 +1,13 @@
+admin;free;custom;English
+Thömu;password;InChange;German
+Patrick;goin;VillageSquare;English
+Hans;Peter;VillageSquare;English
+testy;testy;Standard;German
+p1;p1;Standard;English
+p2;p2;Standard;German
+test;testtest;Standard;English
+test1;testtest;Standard;English
+tom_;12345678;Standard;German
+thömukiller;thömuwillloose;Standard;German
+Tschulaih;Timbuktu;Standard;English
+thomi;12345678;Standard;English

@@ -1,0 +1,6 @@
+admin;Abenteurer;Burggraben;Dieb;Dorf;Festmahl;Fluch;Gaerten;Hexe;Holzfaeller;Jahrmarkt
+Thömu;test1;test2;test3sadfasfd;test4;test5;test6;test7;test8;test9;test10
+Patrick;
+Hans;
+testy;
+p1;Festmahl;Keller;Markt;Miliz;Mine;Ratsversammlung;Schmiede;Spion;Umbau;Werkstatt

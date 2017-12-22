@@ -1,0 +1,515 @@
+/**@author Sven**/
+
+.root {
+	-fx-background-color: #000000;
+	-fx-alignment: center;
+	-fx-spacing: 10px;
+	-fx-text-fill: #fcfaf9;
+}
+
+.login{
+	-fx-min-height: 400px;
+	-fx-min-width: 500px;
+}
+
+.button{
+	-fx-background-color: #4f4a48;
+	-fx-text-fill: #fcfaf9;
+	-fx-font-weight: bold;
+	-fx-border-radius: 0px;
+	-fx-pref-width: 200px;
+	-fx-background-radius: 0;
+}
+
+.button:hover{
+	-fx-background-color: #8e8683;
+	-fx-text-fill: #fcfaf9;
+	-fx-font-weight: bold;
+	-fx-border-radius: 0px;
+}
+
+.label{
+	-fx-text-fill: #fcfaf9;
+	-fx-padding:10px;
+}
+
+.radio-button{
+	-fx-text-fill: #fcfaf9;
+}
+
+.BorderPane{
+	-fx-alignment: center;
+	-fx-border-insets: 10px;
+	-fx-margin: 10px;
+}
+
+.Tooltip{
+	-fx-alignment: center;
+	-fx-min-height: 400px;
+	-fx-min-width: 200px;
+	-fx-max-width: 300px;
+}
+
+#btnDecision{
+	-fx-max-width: 150px;
+}
+
+#lblTips{
+	-fx-max-width: 200px;
+}
+
+#lblStackSize{
+	-fx-text-fill: white;
+	-fx-font-size: 8pt;
+	-fx-font-weight: bold;
+	-fx-min-width: 20px;
+	-fx-max-width: 30px;
+	-fx-min-height: 20px;
+	-fx-max-height: 30px;
+	-fx-border-insets:0;
+	-fx-background-radius:0;
+	-fx-padding:0px;
+	-fx-margin:0px;
+	-fx-background-color: red;
+}
+
+#lblBuyCart{
+	-fx-text-fill: #000000;
+	-fx-font-family: 'Old English Text MT';
+	-fx-font-size: 16pt;
+	-fx-font-weight: bold;
+	-fx-min-width: 200px;
+	-fx-max-width: 200px;
+	-fx-alignment: center;
+	-fx-background-image: url("nagelbrett.png");
+	-fx-background-size: cover;
+}
+
+#lblPoints{
+	-fx-font-weight: bold;
+	-fx-min-width: 300px;
+	-fx-background-image: url("points.png");
+	-fx-background-size: cover;
+}
+
+#lblAdditionalMoney{
+	-fx-font-weight: bold;
+	-fx-min-width: 300px;
+	-fx-background-image: url("additionalmoney.png");
+	-fx-background-size: cover;
+}
+
+#lblPlayer{
+	-fx-font-weight: bold;
+	-fx-min-width: 300px;
+	-fx-background-image: url("user.png");
+	-fx-background-size: cover;
+}
+
+#lblBuys{
+	-fx-font-weight: bold;
+	-fx-min-width: 300px;
+	-fx-background-image: url("additionalbuys.png");
+	-fx-background-size: cover;
+}
+
+#GameButtons{
+	-fx-text-fill: #000000;
+	-fx-font-size: 16pt;
+	-fx-font-weight: bold;
+	-fx-min-width: 200px;
+	-fx-max-width: 200px;
+	-fx-alignment: center;
+	-fx-background-image: url("holzleiste.png");
+	-fx-background-size: cover;
+}
+
+.GridPane{
+	-fx-border-insets: 10px;
+	-fx-hgap: 5;
+    -fx-vgap: 5;
+	-fx-alignment: center;
+}
+
+#mainMenu{
+	-fx-min-height: 250px;
+	-fx-min-width: 500px;
+}
+
+#vBox {
+	-fx-spacing:10px;
+	-fx-padding: 10px;
+	-fx-alignment: center;
+}
+
+#vBoxBuyCart{
+	-fx-spacing: 10px;
+	-fx-padding: 10px;
+	-fx-margin: 20px, 0px, 20px, 10px;
+	-fx-min-height:350px;
+	-fx-max-height: 400px;
+	-fx-max-width: 240px;
+	-fx-border-size: 5px;
+	-fx-border-insets: 5px;
+	-fx-border-color: lightgrey;
+}
+
+#hBoxBuyCart{
+	-fx-max-width:200px;
+	-fx-max-width:200px;
+}
+
+#gameField{
+	-fx-background-image: url("background.jpg");
+	-fx-background-size: cover;
+	-fx-background-color: #000000;
+	-fx-alignment: center;
+	-fx-min-height: 750px;
+	-fx-min-width: 1500px;
+	-fx-spacing:10px;
+	-fx-text-fill:#fcfaf9;
+}
+
+.text-area .content{
+	-fx-background-color: #8e8683;
+	-fx-background-image: url("pergament.jpg");
+	-fx-min-width: 250px;
+	-fx-max-width: 300px;
+	-fx-min-height: 500px;
+	-fx-border-insets: 0;
+	-fx-border-radius:0;
+	-fx-text-fill: #3d3d3d;
+	-fx-border-size:0;
+	-fx-border-color: #8e8683;
+}
+
+.text-area{
+	-fx-border-color: #8e8683;
+	-fx-border-size:0;
+	-fx-border-insets:0;
+	-fx-border-radius:0;
+	-fx-opacity: 0.9;
+	-fx-text-fill: #262626;
+}
+
+.text-area .scroll-bar:vertical{
+	-fx-background-image: url("wax.png");
+}
+
+#hBox {
+	-fx-padding: 20px;
+	-fx-spacing:10px;
+	-fx-alignment: center;
+	-fx-border-color: #8e8683;
+	-fx-border-insets: 10px;
+}
+
+#hBoxConfigMenu{
+	-fx-padding: 20px;
+	-fx-spacing:10px;
+}
+
+#hBoxConfigMenuBottom{
+	-fx-padding: 20px;
+	-fx-spacing:10px;
+	-fx-alignment: center;
+	-fx-border-insets: 10px;
+}
+
+#hBoxStatusBar{
+	-fx-spacing:5px;
+	-fx-padding:5px;
+	-fx-alignment: center;
+	-fx-background-color: #000000;
+	-fx-border-insets:0px;
+	-fx-opacity:0.8;
+}
+
+
+#txtField{
+	-fx-margin:10px;
+	-fx-padding:10px;
+	-fx-max-width:250px;
+	-fx-alignment: center;
+}
+
+#menuButton{
+	-fx-alignment: center;
+	-fx-border-insets: 10px;
+}
+
+/**----------- Alerts -------------**/
+/*found css class declarations for Alerts on https://stackoverflow.com/questions/37354686/customize-javafx-alert-with-css*/
+ .dialog-pane{
+  -fx-border-color:black;
+  -fx-border-width:2.0px;
+  -fx-max-height:200px;
+  -fx-max-width:300px;
+  -fx-alignment: center;
+ }
+
+/**Costumization of The Bar where the buttons are located**/
+.dialog-pane .button-bar .container {
+  -fx-background-color:black;
+  -fx-alignment: center;
+}
+
+.dialog-pane .content.label {
+   -fx-padding: 2px;
+   -fx-background-color: black;
+   -fx-text-fill: white;
+   -fx-font-size:12pt;
+   -fx-wrap-text: true;
+}
+
+/**Costumization of DialogPane Header**/
+.dialog-pane:header .header-panel {
+  -fx-background-color: black;
+}
+
+.dialog-pane:header .header-panel .label{
+  -fx-background-color: black;
+  -fx-text-fill:white;
+  -fx-font-size:12pt;
+}
+
+/**Costumization of Buttons**/
+.dialog-pane .button{
+   -fx-background-color:black;
+   -fx-text-fill:white;
+   -fx-wrap-text: true;
+   -fx-border-color: white;
+   -fx-background-size: 2px;
+   -fx-alignment: center;
+ }
+
+.dialog-pane .button:hover{     
+  -fx-background-color:#8e8683;
+  -fx-text-fill:white;
+  -fx-font-weight:bold; 
+ }
+
+
+/**----------- Cards -------------**/
+.Cards{
+	-fx-border-radius: 0px;
+	-fx-min-width: 160px;
+	-fx-max-width: 160px;
+	-fx-min-height: 240px;
+	-fx-max-height: 240px;
+	-fx-background-radius: 0;
+	-fx-background-size: cover;
+}
+
+.Cards:hover{
+	-fx-border-color: #e5c600;
+	-fx-border-size:10px;
+}
+
+.selectedCardButton{
+	-fx-border-radius: 0px;
+	-fx-min-width: 160px;
+	-fx-max-width: 160px;
+	-fx-min-height: 240px;
+	-fx-max-height: 240px;
+	-fx-background-radius: 0;
+	-fx-background-size: cover;
+	-fx-border-color: #e5b962;
+	-fx-border-size:15px;
+}
+
+.buyCards{		
+	-fx-border-radius: 0px;
+	-fx-pref-width: 80px;
+	-fx-pref-height: 120px;
+	-fx-max-width: 80px;
+	-fx-max-height: 120px;
+	-fx-background-radius: 0;
+	-fx-background-size: cover;
+}
+
+.buyCards:hover{
+	-fx-border-color: #e5c600;
+	-fx-border-size:10px;
+}
+
+.selectedCardToSteal{
+	-fx-border-radius: 0px;
+	-fx-pref-width: 80px;
+	-fx-pref-height: 120px;
+	-fx-max-width: 80px;
+	-fx-max-height: 120px;
+	-fx-background-radius: 0;
+	-fx-background-size: cover;
+	-fx-border-color: #e5b962;
+	-fx-border-size:15px;
+}
+
+/*Background of value cards*/
+#Gold{
+	-fx-background-image: url("Gold.jpg");
+	-fx-background-size: cover;
+}
+
+#Silber{
+	-fx-background-image: url("Silber.jpg");
+	-fx-background-size: cover;
+}
+
+#Kupfer{
+	-fx-background-image: url("Kupfer.jpg");
+	-fx-background-size: cover;
+}
+
+/*Background of point cards*/
+#Anwesen{
+	-fx-background-image: url("Anwesen.jpg");
+	-fx-background-size: cover;
+}
+
+#Herzogtum{
+	-fx-background-image: url("Herzogtum.jpg");
+	-fx-background-size: cover;
+}
+
+#Provinz{
+	-fx-background-image: url("Provinz.jpg");
+	-fx-background-size: cover;
+}
+
+/*Background of action cards*/
+#Abenteurer{
+	-fx-background-image: url("Abenteurer.jpg");
+	-fx-background-size: cover;
+}
+
+#Bibliothek{ 
+	-fx-background-image: url("Bibliothek.jpg");
+	-fx-background-size: cover;
+}
+
+#Burggraben{
+	-fx-background-image: url("Burggraben.jpg");
+	-fx-background-size: cover;
+}
+
+#Buerokrat{
+	-fx-background-image: url("Buerokrat.jpg");
+	-fx-background-size: cover;
+}
+
+#Dieb{
+	-fx-background-image: url("Dieb.jpg");
+	-fx-background-size: cover;
+}
+
+#Dorf{
+	-fx-background-image: url("Dorf.jpg");
+	-fx-background-size: cover;
+}
+
+#Festmahl{
+	-fx-background-image: url("Festmahl.jpg");
+	-fx-background-size: cover;
+}
+
+#Gaerten{
+	-fx-background-image: url("Gaerten.jpg");
+	-fx-background-size: cover;
+}
+
+#Geldverleiher{
+	-fx-background-image: url("Geldverleiher.jpg");
+	-fx-background-size: cover;
+}
+
+#Hexe{
+	-fx-background-image: url("Hexe.jpg");
+	-fx-background-size: cover;
+}
+
+#Holzfaeller{
+	-fx-background-image: url("Holzfaeller.jpg");
+	-fx-background-size: cover;
+}
+
+#Jahrmarkt{
+	-fx-background-image: url("Jahrmarkt.jpg");
+	-fx-background-size: cover;
+}
+
+#Kanzler{
+	-fx-background-image: url("Kanzler.jpg");
+	-fx-background-size: cover;
+}
+
+#Kapelle{
+	-fx-background-image: url("Kapelle.jpg");
+	-fx-background-size: cover;
+}
+
+#Keller{
+	-fx-background-image: url("Keller.jpg");
+	-fx-background-size: cover;
+}
+
+#Laboratorium{
+	-fx-background-image: url("Laboratorium.jpg");
+	-fx-background-size: cover;
+}
+
+#Markt{
+	-fx-background-image: url("Markt.jpg");
+	-fx-background-size: cover;
+}
+
+#Miliz{
+	-fx-background-image: url("Miliz.jpg");
+	-fx-background-size: cover;
+}
+
+#Mine{
+	-fx-background-image: url("Mine.jpg");
+	-fx-background-size: cover;
+}
+
+#Ratversammlung{
+	-fx-background-image: url("Ratversammlung.jpg");
+	-fx-background-size: cover;
+}
+
+#Schmiede{
+	-fx-background-image: url("Schmiede.jpg");
+	-fx-background-size: cover;
+}
+
+#Spion{
+	-fx-background-image: url("Spion.jpg");
+	-fx-background-size: cover;
+}
+
+#Thronsaal{
+	-fx-background-image: url("Thronsaal.jpg");
+	-fx-background-size: cover;
+}
+
+#Umbau{
+	-fx-background-image: url("Umbau.jpg");
+	-fx-background-size: cover;
+}
+
+#Werkstatt{
+	-fx-background-image: url("Werkstatt.jpg");
+	-fx-background-size: cover;
+}
+
+#Rueckseite{
+	-fx-background-image: url("Rueckseite_01.jpg");
+	-fx-background-size: cover;
+}
+
+#Fluch{
+	-fx-background-image: url("Fluch.jpg");
+	-fx-background-size: cover;
+}
+

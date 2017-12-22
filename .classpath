@@ -2,9 +2,5 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry kind="src" path="serverApp"/>
-	<classpathentry kind="src" path="gameElements"/>
-	<classpathentry kind="src" path="messages"/>
-	<classpathentry kind="src" path="clientApp"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
